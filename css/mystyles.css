@@ -1,0 +1,98 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(75, 73, 77);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  height: 90px;
+  padding: 15px;
+  background-color: rgb(32, 35, 60);
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid rgb(108, 249, 195);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.home_link {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.menu a {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.about_me {
+  display: flex;
+  padding: 10px;
+}
+
+.bild_container {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.bla_bla {
+  border: 1px solid rgb(108, 249, 195);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#biography {
+  border: 1px solid rgb(108, 249, 195);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.skills {
+  border: 1px solid rgb(108, 249, 195);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill_item {
+  min-width: 70px;
+  padding: 7px;
+  background-color: rgb(108, 249, 195);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 10px;
+  color: blanchedalmond;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  padding-bottom: 35px;
+  padding-top: 20px;
+  background-color: rgb(32, 35, 60);
+
+  border-top: 3px solid rgb(108, 249, 195);
+}
